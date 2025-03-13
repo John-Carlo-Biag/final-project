@@ -225,3 +225,108 @@ header {
     transition: background-color 0.3s ease-in-out;
 }
   
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  .newsletter {
+    max-width: 400px;
+  }
+  
+  .newsletter p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-family: 'Instrument Sans' , sans-serif;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+  
+  .newsletter-input input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .newsletter-input input::placeholder {
+    font-style: italic; 
+    font-family: 'Instrument Sans', sans-serif; 
+    color: #aaa; 
+  }
+  
+  .newsletter-input button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .subscribe{
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .checkbox-container input {
+    margin-right: 5px;
+  }
+  
+  .footer-brand {
+    text-align: center;
+  }
+  
+  .brand {
+    font-size: 48px;
+    font-family: 'M PLUS 1 Code', sans-serif; 
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons img {
+    width: 35px;
+    height: 35px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    opacity: 1;
+  }
